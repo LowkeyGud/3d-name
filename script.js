@@ -24,11 +24,11 @@ const scene = new THREE.Scene();
  * Textures
  */
 const textureLoader = new THREE.TextureLoader();
-const matCapTexture = textureLoader.load("static/textures/matcaps/8.png");
+const matCapTexture = textureLoader.load("textures/matcaps/8.png");
 
 // Font
 const fontLoader = new FontLoader();
-fontLoader.load("static/fonts/helvetiker_regular.typeface.json", (font) => {
+fontLoader.load("fonts/helvetiker_regular.typeface.json", (font) => {
   const textGeometry = new TextGeometry("Lowkey Gud", {
     font,
     size: 0.5,
